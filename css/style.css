@@ -1,39 +1,103 @@
 :root {
     --main-container-width: 592px; /* larghezza dei container nel main */
     --default-space: 45px; /* margine superiore ed inferiore della maggior parte dei container */
+    --blue: #0061FF;
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 header nav {
-    min-height: 45px;
-    border: 1px dashed black;
+    background-color: #FFFFFF;
+    min-height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ul.nav-item {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+ul.nav-item li {
+    display: inline-block;
+    padding: 0 12px;
+}
+ul.nav-item li a {
+    text-decoration: none;
+    color: black;
+}
+#accedi {
+    display: inline-block;
+}
+#li-logo {
+    padding-top: 3px;
+    padding-left: 5px;
+}
+#logo {
+    display: inline-block;
+    width: 115px;
+}
+#logo img {
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    padding: 4px 12px 5px;
+    cursor: pointer;
+}
+.btn-margin-left {
+    margin-left: 10px;
+}
+.btn-blue {
+    background-color: var(--blue);
+    color: white;
+}
+.btn-padding {
+    padding-top: 10px;
+    padding-bottom: 11px;
 }
 #hero-header {
+    background-color: #B3CFE6;
     min-height: 422px;
     width: 100%;
-    border: 1px dashed black;
 }
 #hero-container {
-    width: 704px;
+    width: 750px;
     min-height: 376px;
-    margin: var(--default-space) auto;
-    border: 1px dashed black;
+    padding: var(--default-space) 0 17px;
+    margin: auto;
 }
 #hero-container h1 {
-    min-height: 150px;
+    font-size: 50px;
+    margin-bottom: 40px;
 }
 .wrapper {
     min-height: 224px;
     display: flex;
     flex-direction: row;
-    border: 1px dashed black;
 }
 .item-small {
     flex-basis: 40%;
-    border: 1px dashed black;
+}
+.item-small p {
+    margin-bottom: 30px;
+}
+#annulla {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.icon {
+    display: block;
+    min-height: 24px;
 }
 .item-big {
     flex-basis: 60%;
