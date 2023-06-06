@@ -1,0 +1,47 @@
+:root {
+    --main-container-width: 592px; /* larghezza dei container nel main */
+    --default-space: 45px; /* margine superiore ed inferiore della maggior parte dei container */
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    min-height: 45px;
+    border: 1px dashed black;
+}
+#hero-header {
+    min-height: 422px;
+    width: 100%;
+    border: 1px dashed black;
+}
+#hero-container {
+    width: 704px;
+    min-height: 376px;
+    margin: var(--default-space) auto;
+    border: 1px dashed black;
+}
+#hero-container h1 {
+    min-height: 150px;
+}
+.wrapper {
+    min-height: 224px;
+    display: flex;
+    flex-direction: row;
+    border: 1px dashed black;
+}
+.header-item-left {
+    flex-basis: 40%;
+    border: 1px dashed black;
+}
+.header-item-right {
+    flex-basis: 60%;
+    border: 1px dashed black;
+}
+.main-container {
+    width: var(--main-container-width);
+    min-height: 700px;
+    margin: var(--default-space) auto;
+    border: 1px dashed black;
+}
