@@ -156,6 +156,10 @@ main section {
     display: flex;
     flex-direction: row;
 }
+.sub-bottom-width {
+    width: 95.8%;
+    margin: auto;
+}
 .subcontainer-arrange {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -221,7 +225,9 @@ ul.ul-blue-check li::before {
 #team {
     text-align: center;
     padding: 5px;
-    border: 1px dashed black;
+    border: 1px solid gray;
+    width: 95.8%;
+    margin: auto;
 }
 #sub-left {
     flex-basis: 70%;
