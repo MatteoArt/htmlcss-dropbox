@@ -1,5 +1,5 @@
 :root {
-    --main-container-width: 850px; /* larghezza dei container nel main */
+    --main-container-width: 930px; /* larghezza dei container nel main */
     --default-space: 45px; /* margine superiore ed inferiore della maggior parte dei container */
     --blue: #0061FF;
 }
@@ -85,7 +85,7 @@ ul.nav-item li a {
 }
 #hero-container {
     width: 100%;
-    max-width: 980px;
+    max-width: 1050px;
     min-height: 376px;
     padding: var(--default-space) 0 5px;
     margin: auto;
@@ -133,13 +133,13 @@ main section {
     width: 100%;
     max-width: var(--main-container-width);
     margin: var(--default-space) auto;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 .margin-top-main {
     margin-top: 130px;
 }
 #business {
-    margin-left: 5px;
+    margin-left: 20px;
 }
 #business h2 {
     font-size: 36px;
@@ -165,21 +165,33 @@ main section {
 .sub-item {
     flex-grow: 1;
     flex-basis: 0;
-    border: 1px dashed black;
     margin: 5px;
 }
 .sub-item-title {
     text-align: center;
     padding: 10px 0;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray; 
 }
 .col {
+    width: 90%;
     height: 100%;
+    margin: auto;
+    border: 1px solid gray;
+}
+.col-body {
+    padding: 35px 20px;
+}
+.col-body h3 {
+    padding-bottom: 5px;
 }
 .col-body ul {
     margin-top: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     list-style-type: none;
+}
+.col-body ul li {
+    padding-top: 10px;
+    padding-right: 10px;
 }
 span.text-bold {
     display: block;
@@ -246,7 +258,7 @@ ul.ul-blue-check li::before {
 }
 #foot-container {
     width: 100%;
-    max-width: 980px;
+    max-width: 1050px;
     min-height: 376px;
     margin: var(--default-space) auto 20px;
     border: 1px dashed black;
