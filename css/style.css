@@ -441,6 +441,10 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
 }
+.box-center-flex {
+    display: flex;
+    flex-direction: column;
+}
 .box-item {
     flex-basis: 50%;
     border: 1px solid green;
