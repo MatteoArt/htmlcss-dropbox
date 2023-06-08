@@ -510,3 +510,6 @@ footer {
 .bg-t {
     background-color: #0093CE;
 }
+#svg1 {
+    fill: white !important;
+}
