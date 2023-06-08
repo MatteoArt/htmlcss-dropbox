@@ -132,9 +132,6 @@ div.item-big img {
     position: absolute;
     bottom: -60px;
 }
-main section {
-    border-bottom: 1px dashed grey;
-}
 .main-container {
     width: 100%;
     max-width: var(--main-container-width);
@@ -146,7 +143,7 @@ main section {
 #business {
     margin-left: 20px;
 }
-#business h2, #section3-title {
+#business h2, #section3-title,#section4-title {
     font-size: 36px;
 }
 #business form {
@@ -166,6 +163,8 @@ main section {
 .container-2 {
     display: flex;
     flex-direction: row;
+    width: 95.8%;
+    margin: auto;
 }
 .sub-bottom-width {
     width: 95.8%;
@@ -209,6 +208,12 @@ div.subcontainer.subcontainer-arrange {
 .col-body ul li {
     padding-top: 10px;
     padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.col-body ul li i {
+    padding-top: 4px;
 }
 span.text-bold {
     display: block;
@@ -266,15 +271,24 @@ ul.margin-bot {
     margin: 20px 0;
     text-align: left;
 }
+.section-wrapper {
+    width: 95.8%;
+    margin: auto;
+}
+.section-ct4 {
+    width: 60%;
+    margin-left: 0;
+}
+#section4 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.section-ct4 span {
+    display: inline-block;
+    margin-top: 40px;
+}
 .sez2-padding {
     padding: 40px 0 20px 30px;
-}
-/* altezza minima container seconda sezione main */
-.height-sec-2 {
-    min-height: 450px;
-}
-.height-sec-4 {
-    min-height: 250px;
 }
 .height-sec-5 {
     min-height: 150px;
@@ -282,12 +296,8 @@ ul.margin-bot {
 .height-sec-6 {
     min-height: 280px;
 }
-.height-auto {
-    min-height: auto;
-}
 .sub-item2 {
     flex-basis: 30%;
-    border: 1px dashed black;
 }
 .card {
     height: 100%;
