@@ -86,6 +86,12 @@ ul.nav-item li a {
     margin-top: 20px;
     border-top: 1px solid grey;
 }
+.line-footer {
+    width: 140px;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
 #hero-header {
     background-color: #B3CFE6;
     min-height: 422px;
@@ -369,12 +375,16 @@ ul.margin-bot {
     margin-right: 30px;
     cursor: pointer;
 }
+footer {
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
 #foot-container {
     width: 100%;
     max-width: 1050px;
     min-height: 376px;
     margin: var(--default-space) auto 20px;
-    border: 1px dashed black;
 }
 #foot-banner {
     display: flex;
@@ -382,14 +392,24 @@ ul.margin-bot {
     margin-top: 20px;
 }
 .foot-item {
-    min-height: 140px;
     flex-grow: 1;
-    border: 1px dashed black;
+    padding: 10px;
 }
 .foot-item-small {
-    min-height: 140px;
     flex-grow: 0.7;
-    border: 1px dashed black;
+    padding: 10px 7px 10px 7px;
+}
+.utilities {
+    list-style-type: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.utilities li {
+    padding: 5px 0;
+    cursor: pointer;
+}
+.utilities li:hover {
+    color: lightblue;
 }
 .reset {
     margin: 0;
@@ -399,4 +419,13 @@ ul.margin-bot {
     margin: 0 auto;
     padding-top: 45px;
     padding-bottom: 45px;
+}
+.language {
+    display: inline-block;
+    margin: 10px;
+    color: gray;
+}
+.cap:last-child {
+    font-size: small;
+    cursor: pointer;
 }
