@@ -481,6 +481,31 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: 6px solid transparent;
+}
+div.box-item.bg-green:hover {
+    border-color: #bfffb8;
+}
+div.box-item.bg-purple:hover {
+    border-color: #8f4a67;
+}
+div.box-item.bg-t:hover {
+    border-color: #5bbfe7;
+}
+div.box-item.bg-orange:hover {
+    border-color: #f38484;
+}
+div.box-item.bg-red:hover {
+    border-color: #e46a7c;
+}
+div.box-item.bg-cel:hover {
+    border-color: #d7e7f3;
+}
+div.box-item.bg-blue:hover {
+    border-color: #7788cd;
+}
+div.box-item.bg-yellow:hover {
+    border-color: #ffec96;
 }
 .box-container.box-flex .box-item svg {
     width: 50%;
